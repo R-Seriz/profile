@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    opacity: 0%;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 20%;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    margin-left: -3px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.nav {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    margin-left: -3px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.link {
+    margin: 0px 10px 0px 20px;
+    width: 160px;
+    height: 25px;
+    text-align: left;
+}
+
+.linktitle {
+    margin: 0px 10px 0px 20px;
+    width: 160px;
+    height: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content {    
+    display: flex;
+	width: 550px;    
+	height: 200px;    
+    overflow-y: scroll;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    align-items: center;
+	text-align: justify;  
+}
+
+.content::-webkit-scrollbar { 
+    display: none; /* Google and Safari */
+}
+.content {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.footer {    
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;	
+	height: auto;	
+}
