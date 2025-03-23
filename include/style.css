@@ -70,13 +70,6 @@ a {
     scrollbar-width: none;  /* Firefox */
 }
 
-div#pfp {
-    width: 100px;
-    height: auto;
-}
-
-img {width: 100%}
-
 .footer {    
     font-size: 14px;
     position: absolute;
