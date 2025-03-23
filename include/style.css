@@ -49,16 +49,15 @@ a {
 }
 
 .content {    
-    display: flex;
+    display: block;
 	width: 550px;    
-	height: 200px;    
-    overflow-y: scroll;
+	max-height: 300px;    
+    overflow-y: auto;
     position: absolute;
     left: 38%;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    align-items: center;
 	text-align: justify;  
 }
 
@@ -68,6 +67,16 @@ a {
 .content {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+}
+
+div.content img {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .footer {    
