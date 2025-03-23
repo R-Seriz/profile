@@ -75,6 +75,8 @@ div#pfp {
     height: auto;
 }
 
+img {width: 100%}
+
 .footer {    
     font-size: 14px;
     position: absolute;
