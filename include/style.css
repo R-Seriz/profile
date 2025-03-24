@@ -3,16 +3,6 @@ a {
     color: black;
 }
 
-.header {
-    position: absolute;
-    top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    font-size: 21px;
-    opacity: 0%;
-}
-
 .vl {
     border-left: 1px solid black;
     height: 20%;
@@ -50,8 +40,8 @@ a {
 
 .content {
     display: block;
-    width: 550px;
-    max-height: 300px;
+    width: 35vw;
+    max-height: 100vh;
     overflow-y: scroll;
     position: absolute;
     left: 38%;
@@ -79,8 +69,8 @@ div.content img {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 65px;
-    margin-bottom: 65px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .footer {
