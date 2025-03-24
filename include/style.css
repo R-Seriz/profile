@@ -52,13 +52,36 @@ a {
     display: block;
 	width: 550px;    
 	max-height: 300px;    
-    overflow-y: auto;
+    overflow-y: hidden;
     position: absolute;
     left: 38%;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 	text-align: justify;  
+}
+
+/* Background effect on hover */
+.content:hover {
+    background-color: rgba(255, 255, 255, 1); /* Fully white when hovered */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+/* Text scrolling effect */
+@keyframes scrollDown {
+    from {
+        transform: translateY(-20px); /* Start slightly above */
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.content p, .content img, .center-text {
+    animation: scrollDown 0.8s ease-in-out;
+    animation-fill-mode: both; /* Keeps the final position */
 }
 
 .content::-webkit-scrollbar { 
