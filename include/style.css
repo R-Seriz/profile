@@ -73,6 +73,16 @@ div.content img {
     margin-bottom: 5vh;
 }
 
+.project-table td {
+    padding: 4px 8px;      /* adjust to taste */
+  }
+
+.project-table td:first-child {
+    width: 150px;
+    display: flex;
+    align-items: center; 
+}
+
 .footer {
     font-size: 14px;
     position: absolute;
