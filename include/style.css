@@ -74,11 +74,11 @@ div.content img {
 }
 
 .project-table td {
-    padding: 4px 8px;      /* adjust to taste */
+    padding: 4px 4px;
   }
 
 .project-table td:first-child {
-    width: 150px;
+    width: 100px;
     display: flex;
     align-items: center; 
 }
