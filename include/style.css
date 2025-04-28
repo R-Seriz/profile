@@ -92,3 +92,52 @@ div.content img {
     margin-top: 10px;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .vl {
+        display: none; /* hide the vertical line on small screens */
+    }
+
+    .nav {
+        position: static;
+        text-align: center;
+        margin: 20px 0;
+        transform: none;
+    }
+
+    .link, .linktitle {
+        display: block;
+        width: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .content {
+        position: static;
+        width: 90%;
+        max-height: none;
+        overflow-y: visible;
+        transform: none;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    div.content img {
+        max-width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .project-table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    .footer {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
