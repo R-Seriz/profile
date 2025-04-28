@@ -131,7 +131,7 @@ div.content img {
     .project-table td {
         display: block;
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding: 8px 0;
     }
 
