@@ -73,6 +73,15 @@ div.content img {
     margin-bottom: 5vh;
 }
 
+.hidden-link {
+    color: black;
+    text-decoration: none;
+}
+
+.hidden-link:hover {
+    font-weight: bold;
+}
+
 .project-table td {
     padding: 4px 4px;
   }
@@ -81,6 +90,17 @@ div.content img {
     width: 100px;
     display: flex;
     align-items: center; 
+}
+
+.photos {
+    width: 100%;
+    height: auto;
+}
+
+.videos {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
 }
 
 .footer {
