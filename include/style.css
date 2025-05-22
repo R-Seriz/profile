@@ -78,10 +78,6 @@ div.content img {
     text-decoration: none;
 }
 
-.hidden-link:hover {
-    font-weight: bold;
-}
-
 .project-table td {
     padding: 4px 4px;
   }
