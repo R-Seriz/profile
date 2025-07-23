@@ -8,8 +8,12 @@
 </head>
 
 <body style="background-color:#ffffff;">
-        <div class="gallery-title">Pool (2024)</div>
-        <div class="gallery-container">
+        <div class="bottom-nav">
+            <div class="bottom-nav-button"><a href="creative-work.html"><strong>go back</strong></a></div>
+        </div>
+
+        <div class="gallery-title" onclick="toggleGallery('pool')">Pool (2024)</div>
+        <div id="pool" class="gallery-container">
             <img style="height: 400px" src="assets/photos/pool 3.png">        
             <img style="height: 250px" src="assets/photos/pool 5.png">    
             <img style="height: 400px" src="assets/photos/pool 2.png">
@@ -17,20 +21,22 @@
             <img style="height: 250px" src="assets/photos/pool 6.png">
             <img style="height: 400px" src="assets/photos/pool 4.png">
         </div>
-        <div class="gallery-title">Perfect Days (2024)</div>
-        <div class="gallery-container">
+        <div class="gallery-title" onclick="toggleGallery('perfect-days')">Perfect Days (2024)</div>
+        <div id="perfect-days" class="gallery-container">
             <img src="assets/photos/perfect days 1.JPG">
             <img src="assets/photos/perfect days 2.JPG">
             <img src="assets/photos/perfect days 3.JPG">
             <img src="assets/photos/perfect days 4.JPG">
         </div>
-        <div class="gallery-title">Okinawa (2024)</div>
-        <div class="gallery-container">
+        <div class="gallery-title" onclick="toggleGallery('okinawa')">Okinawa (2024)</div>
+        <div id="okinawa" class="gallery-container">
             <img src="assets/photos/okinawa 2.jpg">
             <img src="assets/photos/okinawa 1.jpg">
             <img src="assets/photos/okinawa 3.jpg">
             <img src="assets/photos/okinawa 4.jpg">
         </div>
+
+        <script src="include/main.js"></script>
 </body>
 
 </html>
