@@ -7,36 +7,33 @@
     <link rel="stylesheet" href="include/style.css" />
 </head>
 
-<body style="background-color:#ffffff;">
-        <div class="bottom-nav">
-            <div class="bottom-nav-button"><a href="creative-work.html"><strong>go back</strong></a></div>
-        </div>
+<body style="background-color:#c1c1c1;">
 
-        <div class="gallery-title" onclick="toggleGallery('pool')">Pool (2024)</div>
-        <div id="pool" class="gallery-container">
-            <img style="height: 400px" src="assets/photos/pool 3.png">        
-            <img style="height: 250px" src="assets/photos/pool 5.png">    
-            <img style="height: 400px" src="assets/photos/pool 2.png">
-            <img style="height: 400px" src="assets/photos/pool 1.png">
-            <img style="height: 250px" src="assets/photos/pool 6.png">
-            <img style="height: 400px" src="assets/photos/pool 4.png">
-        </div>
-        <div class="gallery-title" onclick="toggleGallery('perfect-days')">Perfect Days (2024)</div>
-        <div id="perfect-days" class="gallery-container">
-            <img src="assets/photos/perfect days 1.JPG">
-            <img src="assets/photos/perfect days 2.JPG">
-            <img src="assets/photos/perfect days 3.JPG">
-            <img src="assets/photos/perfect days 4.JPG">
-        </div>
-        <div class="gallery-title" onclick="toggleGallery('okinawa')">Okinawa (2024)</div>
-        <div id="okinawa" class="gallery-container">
-            <img src="assets/photos/okinawa 2.jpg">
-            <img src="assets/photos/okinawa 1.jpg">
-            <img src="assets/photos/okinawa 3.jpg">
-            <img src="assets/photos/okinawa 4.jpg">
-        </div>
+    <div class="gallery-grid">
+        <a href="photo-galleries/pool.html"><img src="photo-galleries/photos/pool-preview.jpg"></a>
+        <a href="photo-galleries/perfect days.html"><img src="photo-galleries/photos/perfect days 1.JPG"></a>
+        <a href="photo-galleries/okinawa.html"><img src="photo-galleries/photos/okinawa 1.jpg"></a>
+    </div>
 
-        <script src="include/main.js"></script>
+    <div class="bottom-nav">
+        <div class="bottom-nav-button"><a href="creative-work.html"><strong>go back</strong></a></div>
+    </div>
 </body>
+
+<style>
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    padding: 100px;
+    justify-items: center;
+}
+
+.gallery-grid img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+</style>
 
 </html>
