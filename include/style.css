@@ -160,4 +160,21 @@ div.content img {
         margin-top: 10px;
         text-align: center;
     }
+
+    .bottom-nav {
+        position: static;
+        width: 100vw;
+        height: auto;
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-nav-button {
+        padding-left: 0;
+        margin: 8px 0;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
 }
