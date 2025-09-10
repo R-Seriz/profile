@@ -89,8 +89,7 @@ div.content img {
 }
 
 .bottom-nav {
-    bottom: 0;
-    position: absolute;
+    bottom: 0px;
     cursor: pointer;
     width: 100vw;
     height: 5vh;
@@ -102,32 +101,6 @@ div.content img {
     cursor: pointer;
     padding-left: 40px;
     display: inline-block;
-}
-
-.gallery-title {
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-.gallery-container {
-    display: none;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 10px 20px;
-    width: 90vw;
-    margin-left: 3vw;
-}
-
-.gallery-container::-webkit-scrollbar {
-  display: none;
-}
-
-.gallery-container img, video {
-    height: 300px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 20px;
 }
 
 .footer {

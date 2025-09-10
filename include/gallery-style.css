@@ -1,0 +1,27 @@
+.gallery-content {
+    margin: 0px 200px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-content img {
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    margin: 10px;
+}
+
+.gallery-title {
+    margin: 50px 200px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.gallery-description {
+    margin: 50px 250px;
+    font-size: 16px;
+}
