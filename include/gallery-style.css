@@ -18,7 +18,9 @@
 .gallery-content video {
     height: 300px;
     width: auto;
-    margin: 10px;
+    max-width: 100%;
+    object-fit: contain;
+    display: inline-block;
 }
 
 .gallery-title {
