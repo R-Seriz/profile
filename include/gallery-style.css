@@ -15,6 +15,12 @@
     margin: 10px;
 }
 
+.gallery-content video {
+    height: 300px;
+    width: auto;
+    margin: 10px;
+}
+
 .gallery-title {
     margin: 50px 200px;
     font-size: 24px;
@@ -38,6 +44,13 @@
     .gallery-content img {
         height: auto;
         width: 90vw;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .gallery-content video {
+        height: auto;
+        width: 100vw;
         max-width: 100%;
         margin: 10px 0;
     }
