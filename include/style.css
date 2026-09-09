@@ -3,6 +3,11 @@ a {
     color: black;
 }
 
+.gallery-description a:hover,
+.gallery-description a:focus-visible {
+    text-decoration: underline;
+}
+
 .vl {
     border-left: 1px solid black;
     height: 20%;
