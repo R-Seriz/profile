@@ -1,0 +1,40 @@
+.menu {
+    display: block;
+    width: 35vw;
+    max-height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+    /* Google and Safari */
+}
+
+.menu {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.menu h1 {
+    font-size: 1.25em;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: static;
+        width: 90%;
+        max-height: none;
+        overflow-y: visible;
+        transform: none;
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
